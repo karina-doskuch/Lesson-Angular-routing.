@@ -21,8 +21,4 @@ export class PhraseDetailsComponent implements OnInit {
     });
   }
 
-  goToPhrasesList(): void {
-    this.router.navigate(['/phrases']);
-  }
-
 }
